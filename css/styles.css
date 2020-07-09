@@ -1,0 +1,69 @@
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* The header section of the page */
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+header ul{
+    list-style-type: none;
+}
+header ul li{
+    float: left;
+}
+header ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+}
+header ul li a:hover{
+    color: blue;
+    font-size: 21px;
+    text-decoration: underline;
+}
+/* The end of header tag */
+section{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+section aside{
+    width: 20%;
+    height: auto;
+    border: 1px solid red;
+    background-color: rgb(233, 233, 233);
+}
+.my-photo{
+    width: 240px;
+    height: 240px;
+    margin-left: 5%;
+    margin-top: 2vh;
+}
+.my-photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.my-info{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(216, 216, 216);
+    margin-top: 2vh;
+    text-align: center;
+}
+/* the main section */
+section main{
+    width: 80%;
+    height: auto;
+    /* background-image: url(android.jpg) blue ; */
+    background: linear-gradient(black, white);
+
+}
