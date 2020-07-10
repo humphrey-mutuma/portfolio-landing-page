@@ -158,15 +158,13 @@ section main{
     width: 100%;
     height: 50vh;
     margin-top: 5vh;
-    background-color:rgba(255, 255, 255, 0.712);
-    float: left;
 }
 .skills-division div{
     width: 40%;
     height: auto;
     float: left;
     margin-left: 7%;
-    border-radius: 2px;
+    border-radius: 5px;
     background-color:white;
     box-shadow: 2px 4px 4px 4px #8888888e;
     float: left;
@@ -174,6 +172,7 @@ section main{
 .skills-division div h2{
     text-align: center;
     margin-top: 10px;
+    color: blue;
 }
 .skills-division div ol li{
     margin: 20px 35%;
@@ -181,11 +180,49 @@ section main{
 }
 /* About me section */
 .about-me{
-    width: 80%;
-    height: 20vh;
-    margin: 5vh 10%;
+    width: 90%;
+    height: 100vh;
+    margin: 5vh 5%;
     padding-top: 5vh;
-    background-color: black;
+    background-color: whitesmoke;
+    box-shadow: 2px 4px 4px 4px #8888888e;
+    display: flex;
+}
+.about-me h1{
+    text-align: center;
+}
+.myImage{
+    width: 30%;
+    height: 96vh;
+    margin-left: 2%;
+    border: 2px solid #8888888e;
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px 4px #8888888e;
+    text-align: center;
+}
+.myImage img{
+    width: 100%;
+    height:auto;
+    border-radius: 5px;
+}
+
+.myImage p{
+    font-size: 20px;
+}
+.myImage p i{
+    font-size: 80px;
+    font-family: 'Charmonman', cursive;
+        font-style: italic;
+}
+.about-me-content{
+    width: 68%;
+    height: auto;
+    margin-left: 5px;
+    box-shadow: 2px 4px 4px 4px #8888888e;
+    border-radius: 5px;
+}
+.about-me-content p, h2{
+    margin: 10px 5%;
 }
 
 
