@@ -233,19 +233,19 @@ section main{
 .about-me-content ul li{
     margin: 5px 10%;
 }
-.about-me-content ul li img{
+.social-media li img{
    width: 20px;
 }
-.about-me-content ul li:first-child{
+.social-media li:first-child{
     color: blue;
 }
-.about-me-content ul li:nth-child(2){
+.social-media li:nth-child(2){
     color: skyblue;
 }
-.about-me-content ul li:nth-child(3){
+.social-media li:nth-child(3){
     color: rgb(255, 0, 106);
 }
-.about-me-content ul li:last-child{
+.social-media li:last-child{
     color: green;
 }
 
