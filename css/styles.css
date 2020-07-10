@@ -164,16 +164,6 @@ section main{
     right: 0;
     background-color:rgba(255, 255, 255, 0.712);
 }
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 400px) and (max-width: 750px){
     #myAside {
         display: none;
