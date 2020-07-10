@@ -161,9 +161,33 @@ section main{
     width: 80%;
     height: 50vh;
     position: absolute;
+    margin-top: 2vh;
     right: 0;
     background-color:rgba(255, 255, 255, 0.712);
 }
+.skills-division div{
+    width: 40%;
+    height: auto;
+    float: left;
+    margin-left: 3%;
+    border-radius: 2px;
+    background-color: #88888834;
+    box-shadow: 3px 8px 6px 8px #8888888e;
+}
+.skills-division div h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.skills-division div ol li{
+    margin: 20px 35%;
+
+}
+
+
+
+
+
+
 @media screen and (min-width: 400px) and (max-width: 750px){
     #myAside {
         display: none;
