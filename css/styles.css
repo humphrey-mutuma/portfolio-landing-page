@@ -280,8 +280,29 @@ section main{
    border-radius: 8px;
    border: 1px solid rgba(128, 128, 128, 0.171);
 } 
-
-
+/* The contact me section */
+.contact-me{
+    width: 90%;
+    height: auto;
+    /* border: 1px solid green; */
+    margin:5vh 5%;
+}
+.contact-me h2{
+    color: blue;
+    margin: 5px  10%;
+    padding: 5px;
+    text-decoration: underline;
+}
+.contact-me ul{
+    list-style-type: none;
+}
+.contact-me li{
+    margin: 5px 10%;
+    padding: 5px;
+}
+.contact-me-info li img{
+    width: 25px;
+}
 @media screen and (min-width: 400px) and (max-width: 750px){
     #myAside {
         display: none;
