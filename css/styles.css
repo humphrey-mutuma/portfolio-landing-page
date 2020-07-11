@@ -1,8 +1,8 @@
 body{
     box-sizing: border-box;
     font-family: sans-serif;
-    /* background-color: rgba(0, 0, 255, 0.055); */
-    background: radial-gradient( rgba(0, 0, 255, 0.356) 30%, white 70%);
+    background-color: rgba(255, 255, 255, 0.014);
+    /* background: radial-gradient( rgba(0, 0, 255, 0.253) 20%, rgba(255, 255, 255, 0.014) 80%); */
 }
 *{
     margin: 0;
@@ -160,6 +160,8 @@ section main{
     width: 100%;
     height: 50vh;
     margin-top: 5vh;
+        background: radial-gradient( rgba(0, 0, 255, 0.445) 20%, rgba(255, 255, 255, 0) 80%);
+
 }
 .skills-division div{
     width: 40%;
@@ -183,7 +185,7 @@ section main{
 /* About me section */
 .about-me{
     width: 90%;
-    height: 100vh;
+    height: auto;
     margin: 5vh 5%;
     padding-top: 5vh;
     background-color: whitesmoke;
@@ -195,8 +197,9 @@ section main{
 }
 .myImage{
     width: 30%;
-    height: 96vh;
-    margin-left: 2%;
+    height: auto;
+    margin-left: 2px;
+    margin-bottom: 5px;
     border: 2px solid #8888888e;
     border-radius: 5px;
     box-shadow: 2px 4px 4px 4px #8888888e;
@@ -206,6 +209,7 @@ section main{
     width: 100%;
     height:auto;
     border-radius: 5px;
+    filter: grayscale(100%);
 }
 
 .myImage p{
@@ -214,14 +218,16 @@ section main{
 .myImage p i{
     font-size: 80px;
     font-family: 'Charmonman', cursive;
-        font-style: italic;
+    font-style: italic;
 }
 .about-me-content{
-    width: 68%;
+    width: 68.5%;
     height: auto;
-    margin-left: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
     box-shadow: 2px 4px 4px 4px #8888888e;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 .about-me-content p, h3{
     margin: 10px 5%;
@@ -248,13 +254,32 @@ section main{
 .social-media li:last-child{
     color: green;
 }
+/* ===================================== */
+/* The page with my projects from github */
 
-
-
-
-
-
-
+.my-projects{
+    width: 80%;
+    height: auto;
+    margin: 2vh 10%;
+    padding: 5px auto;
+    box-shadow: 2px 4px 4px 4px #8888888e;
+    border-radius: 5px;
+}
+.my-projects h2{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+.my-projects-links{
+    list-style-type: none;
+}
+.my-projects-links div{
+   margin: 5px 5%;
+   padding: 20px;
+   background-color: rgba(128, 128, 128, 0.171);
+   border-radius: 8px;
+   border: 1px solid rgba(128, 128, 128, 0.171);
+} 
 
 
 @media screen and (min-width: 400px) and (max-width: 750px){
