@@ -45,7 +45,7 @@ section{
 section aside{
     width: 20%;
     height: auto;
-    background: linear-gradient(to bottom, rgb(233, 233, 233) , white);
+    background: linear-gradient(to bottom, rgb(216, 216, 216) , white);
     justify-content: center;
     align-items: center;
     /* position: sticky;
@@ -316,16 +316,23 @@ footer{
 footer p{
     padding-top: 6vh;
 }
-
-
-
-
-
+/* Media queries */
 @media screen and (min-width: 400px) and (max-width: 750px){
     #myAside {
-        display: none;
+        width: 100%;
+        height: auto;
+        float: left;
     }
     #myMain{
         width: 100%;
+        height: auto;
+        float: left;
     }
+    #main-section{
+        display: block;
+    }
+    #main-section img{
+        margin-left: 40%;
+    }
+
 }
