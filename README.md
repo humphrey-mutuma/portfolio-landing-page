@@ -1,8 +1,9 @@
 
-Projects name: portfolio-landing-page.
+Projects name: portfolio landing mpage.
+
 Author name: Humphrey mutuma.
 
-Project description: This is a responsive, mobile first personal portfolio showing my skills, hobbies, certifications, previous projects, happy clients, Physical location, social media and personal contact details.
+Project description: This is a responsive, mobile first personal portfolio showing my skills, hobbies, certifications, previous projects, physical location, social media and personal contact details.
 
 Project setup instructions: You can clone this projects from GitHub.
 
