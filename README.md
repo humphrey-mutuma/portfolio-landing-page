@@ -1,7 +1,7 @@
 
-project or program name :portfolio-landing-page
-author name :Humphrey mutuma
-description of project : just a personal portfolio showing my skills, hobbies, certifications, previous projects, happy clients etc.
-project setup instructions - coming soon
-link to live site on GitHub Pages : coming soon
-copyright and license information : This project is licensed under the terms of the MIT license.
+Projects name: portfolio-landing-page.
+Author name: Humphrey mutuma.
+Project description: This is a responsive, mobile first personal portfolio showing my skills, hobbies, certifications, previous projects, happy clients, Physical location, social media and personal contact details.
+Project setup instructions: You can clone this projects from GitHub.
+Link to live site on GitHub Pages: coming soon
+Copyright and license information: This project is licensed under the terms of the MIT license.
