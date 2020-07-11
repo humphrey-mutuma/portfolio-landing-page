@@ -12,7 +12,7 @@ body{
 #navigation-header{
     width: 100%;
     height: 10vh;
-    background-color: black;
+    background-color: grey;
     display: flex;
     align-items: center;
     position: fixed;
@@ -32,12 +32,12 @@ header ul li a {
 }
 header ul li a:hover{
     color: blue;
-    font-size: 20.5px;
+    font-size: 20.3px;
 }
 /* The end of header tag */
 section{
     width: 100%;
-    height: 110vh;
+    height: auto;
     display: flex;
     padding-top: 2vh;
     margin-top: 6vh;
@@ -112,7 +112,8 @@ section main{
 }
 .main-section{
     width: 100%;
-    height: 100vh;
+    height: auto;
+    padding-bottom: 6vh;
     background: linear-gradient(rgba(0, 0, 0, 0.548), rgba(255, 255, 255, 0.719));
     color: white;
     text-align: center;
@@ -158,16 +159,18 @@ section main{
 /* The skills section */
 .skills-division{
     width: 100%;
-    height: 50vh;
-    margin-top: 5vh;
-        background: radial-gradient( rgba(0, 0, 255, 0.445) 20%, rgba(255, 255, 255, 0) 80%);
-
+    height: auto;
+    margin-top: 2vh;
+    padding-top: 4vh;
+    background: radial-gradient( rgba(0, 0, 255, 0.445) 20%, rgba(255, 255, 255, 0) 80%);
 }
 .skills-division div{
     width: 40%;
     height: auto;
     float: left;
     margin-left: 7%;
+    padding-bottom: 4vh;
+    margin-bottom: 4vh;
     border-radius: 5px;
     background-color:white;
     box-shadow: 2px 4px 4px 4px #8888888e;
@@ -216,7 +219,7 @@ section main{
     font-size: 20px;
 }
 .myImage p i{
-    font-size: 80px;
+    font-size: 60px;
     font-family: 'Charmonman', cursive;
     font-style: italic;
 }
