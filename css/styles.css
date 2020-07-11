@@ -303,6 +303,17 @@ section main{
 .contact-me-info li img{
     width: 25px;
 }
+/* The footer */
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: grey;
+}
+
+
+
+
+
 @media screen and (min-width: 400px) and (max-width: 750px){
     #myAside {
         display: none;
